@@ -1,0 +1,245 @@
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+img,
+strong,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+tbody,
+tr,
+th,
+td,
+embed,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+blockquote {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #42429a;
+    width:100%;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink"%3E%3Cdefs%3E%3Cpattern id="grain" width="5" height="5" patternUnits="userSpaceOnUse"%3E%3Crect width="5" height="5" fill="%238f8fc2" /%3E%3Crect width="1" height="5" fill="%236c6c6c" /%3E%3Crect width="5" height="1" fill="%236c6c6c" /%3E%3C/defs%3E%3Crect width="100%" height="100%" fill="url(%23grain)" /%3E%3C/svg%3E');
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    font-size: 24px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+#siteWrapper {
+    padding: 0; /* Set padding to zero */
+}
+
+#headerWrapper {
+    padding: 10px; /* Add padding to the header */
+    width:100%;
+    height:100px;
+}
+
+#bodyWrapper {
+    margin: 25px auto;
+}
+#headerWrapper .navdesk {
+    color: #f6e174;
+    width:100%;
+    text-align: right;
+    margin-right:40px;
+    
+}
+#headerWrapper .navdesk a{
+    color:#f6e174;
+}
+#headerWrapper .navdesk span:hover{
+    color: #ecc91a;
+}
+#headerWrapper .navdesk p, #headerWrapper .navdesk span{
+    padding: 30px 10px 0 0;
+    font-size: 24px;
+    font-weight:600;
+}
+
+
+#headerWrapper .navdesk span.vertLine{
+    font-weight: 200;
+    color: #8e8e8e; 
+}
+
+#bodyWrapper .logo {
+    max-width: 100%;
+    height: 80%;
+    width: 80%;
+}
+
+.epHome{
+    background:#fff;
+    width:25%;
+    height:125px;
+    display:inline-block;
+    margin: 75px 0 0 200px;
+    padding: 25px 0;
+}
+
+.epHome h1, .epHome h2{
+    justify-content: center;
+}
+
+.bandContainer{
+    margin: 30px 30px;
+    width: 70%;
+}
+#bodyWrapper .band {
+    display: block;
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    margin: 0 25px 25px 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:50%;
+    height:50%;
+}
+#footerWrapper{
+    margin: 150px auto 10px;
+}
+
+.socials, .streaming, .contact{
+    margin: 20px 20px 20px 10px;
+}
+
+.snake{
+    margin:20px 20px 0 10px;
+}
+
+.socials p, .streaming p, .contact p, .snake p{
+    color: #f6e174;
+    font-size: 22px;
+    width: fit-content;    
+}
+.socials a, .streaming a, .contact a, .snake a{
+    display:inline-block;
+}
+
+.socials p:hover{color: #ecc91a;}
+.streaming p:hover{color: #ecc91a;}
+.contact p:hover{color: #ecc91a;}
+.snake p:hover{color: #ecc91a;}
+
+.homeNav{
+    width:15%;
+}
+
+.homeNav img{
+    width:50%;
+    align-items: center;
+    justify-content: center;
+    transition:250ms;
+}
+
+.homeNav img:hover{
+    transform:scale(1.1);
+}
+
+/* VIDEOS */
+#vidcont{
+    margin:0 25px 400px;
+    width:40%;
+    height:305px;
+}
+
+#vidcont .vid{
+    align-items: center;
+    display:inline-block;
+    width:100%;
+    height:100%;
+}
+.vid h2{
+    width:100%;
+    margin: 0 auto;
+    font-weight: 700;
+    margin:0 0 10px;
+}
+.vid iframe{
+    width: 100%;
+    height:300px;
+    margin: 0 auto;
+}
+
+
+

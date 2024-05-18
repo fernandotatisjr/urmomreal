@@ -1,0 +1,58 @@
+html{-webkit-text-size-adjust:100%}
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,a,img,strong,b,u,i,ol,ul,li,fieldset,form,label,table,tbody,tr,th,td,embed,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+blockquote{quotes:none}
+blockquote:before,blockquote:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+*{margin:0;padding:0;font-family:'Poppins',sans-serif;box-sizing:border-box}
+body{margin:0;position:relative;font-family:Arial,Helvetica,sans-serif;width:100%;}
+h1{font-size:40px;text-align:center}
+h2{font-size:30px;text-align:center}
+p{font-size:24px}
+img{max-width:100%;height:auto}
+a{text-decoration:none}
+#siteWrapper{padding:0}
+#headerWrapper{position: fixed;width:100%;height: 50px;background:#fff;z-index:1000;margin:-25px auto;padding:10px 0}
+#bodyWrapper{margin:25px auto}
+#headerWrapper .navdesk{color:#1a1914;width:100%;text-align:right;margin-right:40px}
+#headerWrapper .navdesk a{color:#1a1914;}
+#headerWrapper .navdesk span:hover{color:#ecc91a}
+#headerWrapper .navdesk p,#headerWrapper .navdesk span{padding:30px 10px 0 0;font-size:24px;font-weight:600}
+#headerWrapper .navdesk span.vertLine{font-weight:200;color:#8e8e8e}
+#bodyWrapper{background:#1a1914;}
+#bodyWrapper .logo{max-width:100%;height:80%;width:80%}
+.epHome{background:#fff;width:25%;height:125px;display:inline-block;margin:75px 0 0 200px;padding:25px 0}
+.epHome h1,.epHome h2{justify-content:center}
+.epHome a{text-align:right;}
+.bandContainer{margin:30px;width:70%;}
+.bandContainer img{transition:250ms;}
+.bandContainer img:hover{transform:scale(1.025)}
+#bodyWrapper .band{display:block;max-width:100%;margin:0 25px 25px 800px;box-shadow:0 0 10px rgba(0,0,0,0.1);width:50%;height:50%}
+#footerWrapper{margin:150px auto 10px; width:100%;}
+.socials,.streaming,.contact{margin:20px 20px 20px 10px}
+.snake{margin:20px 20px 0 10px}
+.socials p,.streaming p,.contact p,.snake p{color:#f6e174;font-size:22px;width:fit-content}
+.socials a,.streaming a,.contact a,.snake a{display:inline-block}
+.socials p:hover{color:#1a1914}
+.streaming p:hover{color:#1a1914}
+.contact p:hover{color:#1a1914}
+.snake p:hover{color:#1a1914}
+.homeNav{width:15%;}
+.homeNav img{width:50%;align-items:center;justify-content:center;transition:250ms}
+.homeNav img:hover{transform:scale(1.1)}
+#vidcont{margin:0 25px 400px;width:40%;height:305px}
+#vidcont .vid{align-items:center;display:inline-block;width:100%;height:100%}
+.umep{width: 30%;height:auto;padding:50px 0;margin:0 auto;position: relative;}
+.umep img{width:100%}
+.content{width:100%;height:82%;margin:50px 0;top:0;left:0;position:absolute;background:#fff;display:flex;align-items:center;flex-direction:column;opacity:0;transition:0.6s;}
+.content:hover{opacity:1}
+.content h3{font-size:40px;text-align: left;font-weight:bold;margin:5% 60% 70% 0}
+.content p{margin: 0 0 0 80%}
+.content hr{color:black;}
+.mlogo{width:20%;height:auto;}
+.vid h2{width:100%;margin:0 auto;font-weight:700;margin:0 0 10px}
+.vid iframe{width:100%;height:300px;margin:0 auto}
+
+@media(max-width:1280px){
+    .homeNav{width:100%;}
+}
+
